@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "JetBrains Mono", monospace;
+  /* background-image: url(pattern.png); */
+  background-image: url("https://get.wallhere.com/photo/1920x1080-px-Anarchy-Anonymous-dark-hacker-hacking-mask-sadic-vendetta-1601391.jpg");
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+img {
+  user-select: none;
+}
+
+.card {
+  width: 400px;
+  height: 600px;
+  margin-right: 25px;
+  margin-left: 25px;
+  background-color: #fff;
+  box-shadow: 0 20px 20px #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.4s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.daniil:hover {
+  transform: scale(1.2);
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+}
+
+.title {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.skills {
+  text-align: center;
+}
+
+.skill-list {
+  list-style-type: none;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  border: 2px solid black;
+  padding: 20px 15px;
+  display: block;
+  text-align: center;
+  width: 110px;
+  margin: 0 auto;
+  transition: all 0.5s;
+}
+
+.link:hover {
+  background-color: chocolate;
+}
+
+#body {
+  animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 600px;
+  padding-bottom: 200px;
+  flex-wrap: wrap;
+}
+
+.daniil {
+  transform: scale(1.1);
+}
